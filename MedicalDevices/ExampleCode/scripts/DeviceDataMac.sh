@@ -2,7 +2,7 @@
 
 filename=$0
 script_dir=`dirname $filename`
-executable_name="rtireplay"
+executable_name="rtireplayservice"
 
 if [ -f "$NDDSHOME/bin/$executable_name" ]
 then

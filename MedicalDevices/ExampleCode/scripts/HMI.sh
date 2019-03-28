@@ -64,5 +64,5 @@ else
     # Run command
     cd $hmi_dir
     java -classpath $absolute_script_dir/../src/HMI/bin:$RTI_JAR_DIR/nddsjava.jar \
-	com.rti.medical.ICEAlarmDisplayApp
+	com.medical.ICEAlarmDisplayApp
 fi
