@@ -11,7 +11,7 @@
 #include "DDSPatientDeviceInterface.h"
 #include "../Generated/profiles.h"
 
-using namespace com::rti::medical::generated;
+using namespace com::medical::generated;
 
 // ----------------------------------------------------------------------------
 // The DDSPatientDevicePubInterface is the network interface to the whole 

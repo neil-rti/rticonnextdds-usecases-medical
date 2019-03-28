@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/AlarmHMI/src/com/rti/medical/ICEAlarmDisplayApp.java"/>
+<listEntry value="/AlarmHMI/src/com/medical/ICEAlarmDisplayApp.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <mapAttribute key="org.eclipse.debug.core.environmentVariables">
-<mapEntry key="DYLD_LIBRARY_PATH" value="/Applications/rti_connext_dds-5.2.0/lib/x64Darwin12clang4.1"/>
-<mapEntry key="LD_LIBRARY_PATH" value="/home/eval/rti_connext_dds-5.2.0/lib/x64Linux3gcc4.8.2"/>
-<mapEntry key="NDDSHOME" value="/home/eval/rti_connext_dds-5.3.0"/>
-<mapEntry key="PATH" value="c:\program files\rti_connext_dds-5.3.0\lib\i86Win32VS2015"/>
+<mapEntry key="DYLD_LIBRARY_PATH" value="c:\program files\rti_connext_dds-6.0.0\lib\i86Win32VS2017"/>
+<mapEntry key="LD_LIBRARY_PATH" value="c:\program files\rti_connext_dds-6.0.0\lib\i86Win32VS2017"/>
+<mapEntry key="NDDSHOME" value="c:\program files\rti_connext_dds-6.0.0"/>
+<mapEntry key="PATH" value="c:\program files\rti_connext_dds-6.0.0\lib\i86Win32VS2017"/>
 </mapAttribute>
 <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
 <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
 <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.rti.medical.ICEAlarmDisplayApp"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.medical.ICEAlarmDisplayApp"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AlarmHMI"/>
 </launchConfiguration>

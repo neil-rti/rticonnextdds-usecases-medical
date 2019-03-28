@@ -1,5 +1,5 @@
 /*******************************************************************************
- (c) 2005-2014 Copyright, Real-Time Innovations, Inc.  All rights reserved.
+ (c) 2005-2019 Copyright, Real-Time Innovations, Inc.  All rights reserved.
  RTI grants Licensee a license to use, modify, compile, and create derivative
  works of the Software.  Licensee has the right to distribute object form only
  for use with RTI products.  The Software is provided "as is", with no warranty
@@ -69,13 +69,13 @@ public:
 	// or shared memory to interested applications subscribing to 
 	// patient-device information.
 	bool Publish(
-			DdsAutoType<com::rti::medical::generated::DevicePatientMapping> 
+			DdsAutoType<com::medical::generated::DevicePatientMapping> 
 				data);
 
 	// --- Deletes the patient-device mapping---
 	// "Deletes" the patient-device mapping from the system - removing the DDS  
 	// instance from all applications.
-	bool Delete(DdsAutoType<com::rti::medical::generated::DevicePatientMapping>
+	bool Delete(DdsAutoType<com::medical::generated::DevicePatientMapping>
 				data);
 
 private:
@@ -85,7 +85,7 @@ private:
 	DDSCommunicator *_communicator;
 
 	// Device-patient mapping publisher specific to this application
-	com::rti::medical::generated::DevicePatientMappingDataWriter *_writer;
+	com::medical::generated::DevicePatientMappingDataWriter *_writer;
 };
 
 #endif

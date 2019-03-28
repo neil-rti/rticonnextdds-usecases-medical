@@ -65,7 +65,15 @@ building or running, change directories into EXAMPLE_HOME/ExampleCode.
 
 Windows Systems
 ---------------
-On a Windows system, start by opening the file:  
+On a Windows system, solution and project files are provided for Visual Studio  
+2017 and 2015.  Batch file scripts have been provided to copy the appropriate  
+files into the ExampleCode\win32 directory.  
+Open a terminal/command prompt in ExampleCode\win32 and run:
+ * `setup-VS2017.bat` for Visual Studio 2017
+ * `setup-VS2015.bat` for Visual Studio 2015
+
+Once the preferred project files have been copied, launch Visual Studio from an  
+environment with NDDSHOME set to your RTI installation directory, and open the file:
 `win32\MedicalDeviceIntegrationExample-<compilerver>.sln`
 
 This code is made up of a combination of libraries, source, and IDL files that

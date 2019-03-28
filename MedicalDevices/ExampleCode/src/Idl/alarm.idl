@@ -11,7 +11,7 @@
 #include "patient.idl"
 
 module com {
-module rti {
+// module rti {
 module medical {
 module generated {
 
@@ -42,5 +42,5 @@ struct Alarm
 
 };
 };
-};
+// };
 };

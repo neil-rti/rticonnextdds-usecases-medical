@@ -4,7 +4,7 @@ setlocal
 IF []==[%NDDSHOME%] GOTO NeedNDDSHome
 
 set dir=%~dp0
-set executable_name=rtireplay
+set executable_name=rtireplayservice
 
 
 cd %dir%\..\replay
